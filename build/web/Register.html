@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .a{
+                font-family: "Bell MT";
+                font-size: "100px";
+                color: "black";
+            }
+            .aa{
+                font-family: "Bell MT";
+                font-size: "25px";
+                color: "black";
+            }
+            .dropbtn {
+               background-color: #4CAF50;
+               color: white;
+               padding: 16px;
+               font-size: 16px;
+               border: none;
+}
+
+            .dropdown {
+               position: relative;
+               display: inline-block;
+}
+
+            .dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover 
+{background-color: #ddd;}
+
+.dropdown:hover 
+.dropdown-content {display: block;}
+
+.dropdown:hover 
+.dropbtn {background-color: #3e8e41;}
+.aa{
+    color:#d2dae2;
+    font-size:60px;
+    word-spacing : "10px";
+    padding : "20px";
+    text-shadow : 0px 0px 100px white;
+    letter-spacing :"5px"; 
+    font-family: Copperplate Gothic Bold;
+}
+
+        </style>
+    </head>
+    <body bgcolor="#dfe6e9">
+        <div class="dropdown">
+                       <button class="dropbtn">Menu</button> 
+                           <div class="dropdown-content">
+                                <a href="#">Home</a>
+                                <a href="#">Employee</a>
+                                     <a href="login.html">Login</a>
+                                     <a href="Register.html">Register</a>
+                       
+          
+                       <a href="tlogin.html">Team Leader</a>
+                       <a href="mlogin.html">Manager</a>
+                       <a href="cloud_login.jsp">Cloud</a>
+  </div>
+</div><br><br><br><br>
+        
+    <center>
+        <div class="a">To Register:</div><br><br><br>
+        
+            <form action="abc" method="post">  
+                <div class="aa">
+                    Name:<br><input type="text" name="userName"/><br/><br>
+        Password:<br><input type="password" name="userPass"/><br/><br/>  
+        Re-Password:<br><input type="password" name="userPass"/><br><br>
+        Email Id:<br><input type="text" name="userEmail"/><br/><br/>  
+        Mobile no.:<br><input type="text" name="ph" title="Enter Only Number"
+         maxlength="10">
+        </div>
+        
+        <br/><br/>  
+        <a href="login.html"><input type="submit" value="register"/> </a>&nbsp;&nbsp;
+        <a href="#"><input type="reset" value="reset"/> </a>
+
+        </form>
+    </center>
+        </body>
+</html>

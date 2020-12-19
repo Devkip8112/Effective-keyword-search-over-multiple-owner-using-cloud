@@ -1,0 +1,19 @@
+SMAP
+fingerverification_jsp.java
+JSP
+*S JSP
+*F
++ 0 fingerverification.jsp
+fingerverification.jsp
+*L
+5,95:51
+99,20:146
+119:166,3
+120,17:169
+137,2:186,3
+139:192
+140:193,3
+141,12:196
+153,9:209
+161,64:218
+*E
